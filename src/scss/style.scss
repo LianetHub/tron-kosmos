@@ -31,7 +31,7 @@ $md6: 389.98px;
 // ПЕРЕМЕННЫЕ
 $minWidth: 320; // Минимальная ширина страницы
 $maxWidth: 1920; // Ширина макета
-$maxWidthContainer: rem(1290); // Максимальная ширина ограничивающего контейнера
+$maxWidthContainer: rem(1330); // Максимальная ширина ограничивающего контейнера
 $containerPadding: 30;
 
 $text: #1e1e1e;
@@ -83,7 +83,6 @@ body {
 	max-width: 100%;
 	padding: 0 rem(20);
 	@media (min-width: $md5) {
-		box-sizing: content-box;
 		max-width: rem(540);
 	}
 	@media (min-width: $md4) {
@@ -256,7 +255,7 @@ body {
 			position: absolute;
 			top: 45%;
 			transform: translateY(-50%);
-			right: 0;
+			right: rem(20);
 			width: 15.5625rem;
 		}
 	}

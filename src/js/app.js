@@ -66,14 +66,14 @@ document.addEventListener('DOMContentLoaded', () => {
         .from('.main__astro', {
             opacity: 0,
         })
+        .from('.main__footer', {
+            opacity: 0,
+            y: 20,
+        })
         .from('.main__sidebar', {
             opacity: 0,
             y: 50
         },)
-        .from('.main__footer', {
-            opacity: 0,
-            y: 20,
-        });
 
 
 
